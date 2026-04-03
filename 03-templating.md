@@ -135,6 +135,17 @@ Render flash message alerts using `templates/partials/alerts/default.latte`:
 {alerts}
 ```
 
+### `{csrf}`
+
+Output a hidden CSRF token input field:
+
+```latte
+<form method="POST">
+    {csrf}
+    ...
+</form>
+```
+
 ### `{css}` and `{js}`
 
 Push a CSS or JS file to the stack:

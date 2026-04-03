@@ -186,7 +186,7 @@ The `n:` prefix moves the logic into the HTML tag — cleaner, less nesting.
 **Latte (Colibri):**
 ```latte
 <form method="POST">
-    {csrf_field()|noescape}
+    {csrf}
     ...
 </form>
 ```

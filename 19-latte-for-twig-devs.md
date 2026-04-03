@@ -194,6 +194,24 @@ The `n:` prefix moves logic into HTML attributes — less nesting, cleaner templ
 
 This means any PHP function works in Latte without registering it first.
 
+## CSRF
+
+**Twig (Symfony):**
+```twig
+<form method="POST">
+    <input type="hidden" name="_token" value="{{ csrf_token('form') }}">
+    ...
+</form>
+```
+
+**Latte (Colibri):**
+```latte
+<form method="POST">
+    {csrf}
+    ...
+</form>
+```
+
 ## Quick Reference
 
 | Concept | Twig | Latte |

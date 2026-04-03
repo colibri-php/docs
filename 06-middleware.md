@@ -64,7 +64,7 @@ In your forms, include the CSRF field:
 
 ```latte
 <form method="POST">
-    {csrf_field()|noescape}
+    {csrf}
     <input name="email" value="{old('email')}">
     <button>Submit</button>
 </form>
