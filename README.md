@@ -4,6 +4,7 @@ Official documentation for the [Colibri](https://github.com/colibri-php/colibri)
 
 ## Table of Contents
 
+0. [Introduction](00-introduction.md) — Story, philosophy, dependencies, what's next
 1. [Getting Started](01-getting-started.md) — Installation, project structure, first steps
 2. [Routing](02-routing.md) — File-based routing, dynamic segments, HTTP methods
 3. [Templating](03-templating.md) — Latte templates, layouts, custom tags
@@ -23,6 +24,7 @@ Official documentation for the [Colibri](https://github.com/colibri-php/colibri)
 17. [Extending](17-extending.md) — Driver pattern, custom packages, architecture
 18. [Latte for Blade Devs](18-latte-for-blade-devs.md) — Coming from Laravel? Start here
 19. [Latte for Twig Devs](19-latte-for-twig-devs.md) — Coming from Symfony? Start here
+20. [Comparisons](20-comparisons.md) — Colibri vs. Laravel, Symfony, Slim, CakePHP
 
 ## Links
 
