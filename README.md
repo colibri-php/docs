@@ -21,6 +21,8 @@ Official documentation for the [Colibri](https://github.com/colibri-php/colibri)
 15. [Error Handling](15-error-handling.md) — Error pages, Whoops, debug mode
 16. [Testing](16-testing.md) — Pest, PHPStan, Pint
 17. [Extending](17-extending.md) — Driver pattern, custom packages, architecture
+18. [Latte for Blade Devs](18-latte-for-blade-devs.md) — Coming from Laravel? Start here
+19. [Latte for Twig Devs](19-latte-for-twig-devs.md) — Coming from Symfony? Start here
 
 ## Links
 
